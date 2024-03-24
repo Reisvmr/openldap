@@ -9,11 +9,11 @@ services:
     restart: always
 
     environment:
-      - ORG_NAME=Ranvier
-      - ORG_DNS=example.com
-      - ORG_DN=dc=example,dc=com
-      - SERVER_FQDN=ldap.example.com
-      - ROOT_SECRET=password
+      - ORG_NAME=LAB
+      - ORG_DNS=LAB.com
+      - ORG_DN=dc=LAB,dc=com
+      - SERVER_FQDN=ldap.LAB.com
+      - ROOT_SECRET=admin
     ports:
       - '389:389'
       - '636:636'
